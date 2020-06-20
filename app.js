@@ -1,10 +1,8 @@
-/*SEARCH BY USING A CITY NAME (e.g. athens) OR A COMMA-SEPARATED CITY NAME ALONG WITH THE COUNTRY CODE (e.g. athens,gr)*/
 const form = document.querySelector(".top-banner form");
 const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .container");
-/*PUT YOUR OWN KEY HERE - THIS MIGHT NOT WORK
-SUBSCRIBE HERE: https://home.openweathermap.org/users/sign_up*/
+
 const apiKey = "19f6455846a409255b84e9b9bd8b9e07";
 
 form.addEventListener("submit", e => {
